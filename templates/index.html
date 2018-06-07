@@ -6,33 +6,26 @@
     </head>
     <body>
         <div id="map" style="width:100%; height:300px;"></div>
-        <h1>Deaths during the L.A. riots</h1>
+	<h1>Aplicaciones Distribuidas Proyecto Final</h1>
+        <h1>Nivel Superior IPN Ubicaciones</h1>
         <table border=1 cellpadding=7>
             <tr>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Type</th>
-                <th>Address</th>
-                <th>Age</th>
-                <th>Gender</th>
-                <th>Race</th>
+                <th>nombre</th>
+                <th>telefono</th>
+                <th>url</th>
             </tr>
         {% for obj in object_list %}
             <tr>
-                <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
-                <td>{{ obj.date }}</td>
-                <td>{{ obj.type }}</td>
-                <td>{{ obj.address }}</td>
-                <td>{{ obj.age }}</td>
-                <td>{{ obj.gender }}</td>
-                <td>{{ obj.race }}</td>
+                <td><a href="{{ obj.id }}/">{{ obj.nombre }}</a></td>
+                <td>{{ obj.telefono }}</td>
+                <td>{{ obj.url }}</td>
             </tr>
         {% endfor %}
         </table>
         <script type="text/javascript">
-            var map = L.map('map').setView([34.055, -118.35], 9);
+            var map = L.map('map').setView([19.511179,-99.125700], 9);
             var osmLayer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 18,
+                maxZoom: 19,
                 attribution: 'Data, imagery and map information provided by <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.'
             });
             map.addLayer(osmLayer);
@@ -43,7 +36,7 @@
                 {
                   "type": "Feature",
                   "properties": {
-                    "full_name": "{{ obj.full_name }}",
+                    "nombre": "{{ obj.nombre }}",
                     "id": "{{ obj.id }}"
                   },
                   "geometry": {
@@ -58,7 +51,7 @@
                 onEachFeature: function(feature, layer) {
                     layer.bindPopup(
                         '<a href="' + feature.properties.id + '/">' +
-                            feature.properties.full_name +
+                            feature.properties.nombre +
                         '</a>'
                     );
                 }

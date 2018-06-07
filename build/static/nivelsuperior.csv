@@ -1,0 +1,49 @@
+id,nombre,nombre_completo,direccion,telefono,url,y,x
+1,CICS Milpa Alta,Centro Interdisciplinario de Ciencias de la Salud Unidad Milpa Alta,"Ex-Hacienda del Mayorazgo Km. 39.5 Carretera Xochimilco–Oaxtepec Ciudad de México  C.P. 12000 Apartado Postal 5",57296000 ext 82301,http://www.cicsma.ipn.mx/Paginas/inicio.aspx,19.080164,-98.958369,
+2,CICS Santo Tomas,Centro Interdisciplinario de Ciencias de la Salud Unidad Santo Tomás,"Av. De los Maestros s/n casi Esq. Calzada de los Gallos Col. Santo Tomás Del. Miguel Hidalgo Ciudad de México C.P. 11340",5729 6000 ext. 46218,http://www.cics-sto.ipn.mx/Paginas/inicio.aspx,19.455405,-99.165461,
+3,ENCB Santo Tomas,Escuela Nacional de Ciencias Biológicas Unidad Santo Tomás,"Prolongación de Carpio y Plan de Ayala s/n Col. Sto. Tomás Del. Miguel Hidalgo Ciudad de México C.P. 11340",57296000 ext. 62436,http://www.encb.ipn.mx/Paginas/index.html,19.453918,-99.170836,
+4,ENCB Zacatenco,Escuela Nacional de Ciencias Biológicas Unidad Zacatenco,"Av. Wilfrido Massieu Esq. Calzada Miguel Stampa s/n Unidad Profesional "Adolfo López Mateos" Del. Gustavo A. Madero Ciudad de México C.P. 07738",57296000 ext. 62436,http://www.encb.ipn.mx/Paginas/index.html,19.499538,-99.146236,
+5,ENMH,Escuela Nacional de Medicina y Homeopatía,"Guillermo Massieu Helguera No. 239 Fracc. La Escalera Col. Ticomán Ciudad de México C.P. 07320",57296000 exts. 55500,http://www.enmh.ipn.mx/Paginas/inicio.aspx,19.511700,-99.138622,
+6,ESCA Santo Tomas,Escuela Superior de Comercio y Administración Unidad Santo Tomás,"Prolongación de Carpio No. 471 Col. Plutarco Elías Calles Del. Miguel Hidalgo Ciudad de México C.P. 11340",57296000 ext. 61607,http://www.escasto.ipn.mx/Paginas/inicio.aspx,19.453706,-99.167734,
+7,ESCA Tepepan,Escuela Superior de Comercio y Administración Unidad Tepepan,"Periférico Sur No. 4863 Col. Ampliación Tepepan Tlalpan Ciudad de México C.P. 16020",57296000 ext. 42041,http://www.escatep.ipn.mx/Paginas/inicio.aspx,19.453461,-99.167936,
+8,ESCOM,Escuela Superior de Cómputo,"Av. Juan de Dios Bátiz s/n Esq. Miguel Othón de Mendizábal Unidad Profesional "Adolfo López Mateos" Col. Lindavista Del. Gustavo A. Madero Ciudad de México C.P. 07738",57296000 ext. 46188,http://www.escom.ipn.mx/,19.504537, -99.147081,
+9,ESE,Escuela Superior de Economía,"Plan de Agua Prieta No. 66 Unidad Profesional "Lázaro Cárdenas" Col. Plutarco Elías Calles Del. Miguel Hidalgo Ciudad de México C.P. 11340",57296300 ext. 46251,http://www.ese.ipn.mx/Paginas/inicio.aspx,19.454780,-99.168029,
+11,ESFM,Escuela Superior de Física y Matemáticas,"Edificio 9 Av. Instituto Politécnico Nacional s/n Unidad Profesional "Adolfo López Mateos" Col. San Pedro Zacatenco Del. Gustavo A. Madero Ciudad de México C.P. 07738",57296000 ext. 55343,http://www.esfm.ipn.mx/Paginas/inicio.aspx,19.502749,-99.134623,
+12,ESIME Azcapotzalco,Escuela Superior de Ingeniería Mecánica y Eléctrica Unidad Azcapotzalco,"Av. de las Granjas No. 682 Col. Sta. Catarina Del. Azcapotzalco Ciudad de México C.P. 07738",57296000 ext. 64382,http://www.esimeazc.ipn.mx/Paginas/inicio.aspx,19.490134,-99.173258,
+13,ESIME Culhuacan,Escuela Superior de Ingeniería Mecánica y Eléctrica Unidad Culhuacán,"Av. Santa Ana No. 1000 Col. San Francisco Culhuacán Del. Coyoacán Ciudad de México C.P. 04430",56242000 ext. 73000,http://www.esimecu.ipn.mx/Paginas/inicio.aspx,19.328666,-99.112834,
+16,ESIQIE,Escuela Superior de Ingeniería Química e Industrias Extractivas,"Edificios 6 7 y 8 Unidad Profesional "Adolfo López Mateos" Col. Lindavista Del. Gustavo A. Madero Ciudad de México C.P. 07300",5729 6000 ext. 46140,www.esiqie.ipn.mx/Paginas/inicio.aspx,19.502149,-99.134696,
+17,ESIT,Escuela Superior de Ingeniería Textil,"Edificio No. 8 Av. Instituto Politécnico Nacional s/n Unidad Profesional "Adolfo López Mateos" Col. Lindavista Ciudad de México C.P. 07300",5729 6000 ext. 55216,http://www.esit.ipn.mx/Paginas/inicio.aspx,19.500310,-99.133092,
+18,ESIA Tecamachalco,Escuela Superior de Ingeniería y Arquitectura Unidad Tecamachalco,"Av. Fuente de los Leones No. 22 Naucalpan de Júarez Edo. de Méx C.P. 53760",57296000 exts. 68030,http://www.esiatec.ipn.mx/Paginas/inicio.aspx,19.430167,-99.232475,
+19,ESIA Ticoman,Escuela Superior de Ingeniería y Arquitectura Unidad Ticomán,"Av. Ticomán No. 600 Col. San José Ticomán Del. Gustavo A. Madero Ciudad de México C.P. 07340",57296000 ext. 56001,http://www.esiatic.ipn.mx/Paginas/inicio.aspx,19.507826,-99.131278,
+20,ESIA Zacatenco,Escuela Superior de Ingeniería y Arquitectura Unidad Zacatenco,"Av. Juan de Dios Bátiz s/n Unidad Profesional "Adolfo López Mateos" Col. Zacatenco Del. Gustavo A. Madero Ciudad de México C.P. 07738",57296000 ext. 53102,http://www.esiaz.ipn.mx/Paginas/inicio.aspx,19.504721,-99.137211,
+21,ESM,Escuela Superior de Medicina,"Av. Salvador Díaz Mirón s/n Esq. Plan de San Luis Col. Casco de Santo Tomás Del. Miguel Hidalgo Ciudad de México C.P. 11340",57296000 ext. 62718,http://www.esm.ipn.mx/Paginas/inicio.aspx,19.451007,-99.168619,
+22,EST,Escuela Superior de Turismo,"Miguel Bernard No. 39 Col. La Escalera Del. Gustavo A. Madero Ciudad de México C.P. 07630",57296000 ext. 55765,http://www.est.ipn.mx/Paginas/Inicio.aspx,19.514728,-99.140682,
+23,UPIBI,Unidad Profesional Interdisciplinaria de Biotecnología,"Av. Acueducto s/n Col. Barrio La Laguna Ticomán Ciudad de México, C.P. 07340",5729 6000 ext. 56347,http://www.upibi.ipn.mx/Paginas/inicio.aspx,19.516090,-99.126838,
+24,UPIIZ,Unidad Profesional Interdisciplinaria de Ingeniería Campus Zacatecas,"Alameda García de la Cadena No. 418 Centro Zacatecas Zacatecas C.P. 98000",01(492)9242419,http://www.zacatecas.ipn.mx/Paginas/Inicio.aspx,22.783992,-102.616502,
+25,UPIICSA,Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas,"Av. Té No. 950 Esq. Resina Col. Granjas Del. Iztacalco Ciudad de México C.P. 08400",56242000 ext. 70076,http://www.upiicsa.ipn.mx/Paginas/inicio.aspx,19.396414,-99.092630,
+26,UPIIG,Unidad Profesional Interdisciplinaria en Ingeniería Campus Guanajuato,"Av. Mineral de Valenciana No. 200 Col. Fracc. Industrial Puerto Interior Silao de la Victoria Guanajuato C.P. 36275",57296000 ext. 81301,http://www.upiig.ipn.mx/Paginas/inicio.aspx,21.014967, -101.504599,
+27,UPIITA,Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas,"Av. Instituto Politécnico Nacional No. 2580 Col. Barrio La Laguna Ticomán Del. Gustavo A. Madero Ciudad de México C.P. 07340",57296000 ext. 56806,https://www.upiita.ipn.mx/,19.511179,-99.125700,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

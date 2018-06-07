@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <div id="map" style="width:100%; height:300px;"></div>
+	<h1>Aplicaciones Distribuidas Proyecto Final</h1>
+        <h1>Nivel Superior IPN Ubicaciones</h1>
+        <table border=1 cellpadding=7>
+            <tr>
+                <th>nombre</th>
+                <th>telefono</th>
+                <th>url</th>
+            </tr>
+        
+            <tr>
+                <td><a href="1/">CICS Milpa Alta</a></td>
+                <td>57296000 ext 82301</td>
+                <td>http://www.cicsma.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="2/">CICS Santo Tomas</a></td>
+                <td>5729 6000 ext. 46218</td>
+                <td>http://www.cics-sto.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="3/">ENCB Santo Tomas</a></td>
+                <td>57296000 ext. 62436</td>
+                <td>http://www.encb.ipn.mx/Paginas/index.html</td>
+            </tr>
+        
+            <tr>
+                <td><a href="4/">ENCB Zacatenco</a></td>
+                <td>57296000 ext. 62436</td>
+                <td>http://www.encb.ipn.mx/Paginas/index.html</td>
+            </tr>
+        
+            <tr>
+                <td><a href="5/">ENMH</a></td>
+                <td>57296000 exts. 55500</td>
+                <td>http://www.enmh.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="6/">ESCA Santo Tomas</a></td>
+                <td>57296000 ext. 61607</td>
+                <td>http://www.escasto.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="7/">ESCA Tepepan</a></td>
+                <td>57296000 ext. 42041</td>
+                <td>http://www.escatep.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="8/">ESCOM</a></td>
+                <td>57296000 ext. 46188</td>
+                <td>http://www.escom.ipn.mx/</td>
+            </tr>
+        
+            <tr>
+                <td><a href="9/">ESE</a></td>
+                <td>57296300 ext. 46251</td>
+                <td>http://www.ese.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="11/">ESFM</a></td>
+                <td>57296000 ext. 55343</td>
+                <td>http://www.esfm.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="12/">ESIME Azcapotzalco</a></td>
+                <td>57296000 ext. 64382</td>
+                <td>http://www.esimeazc.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="13/">ESIME Culhuacan</a></td>
+                <td>56242000 ext. 73000</td>
+                <td>http://www.esimecu.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="16/">ESIQIE</a></td>
+                <td>5729 6000 ext. 46140</td>
+                <td>www.esiqie.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="17/">ESIT</a></td>
+                <td>5729 6000 ext. 55216</td>
+                <td>http://www.esit.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="18/">ESIA Tecamachalco</a></td>
+                <td>57296000 exts. 68030</td>
+                <td>http://www.esiatec.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="19/">ESIA Ticoman</a></td>
+                <td>57296000 ext. 56001</td>
+                <td>http://www.esiatic.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="20/">ESIA Zacatenco</a></td>
+                <td>57296000 ext. 53102</td>
+                <td>http://www.esiaz.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="21/">ESM</a></td>
+                <td>57296000 ext. 62718</td>
+                <td>http://www.esm.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="22/">EST</a></td>
+                <td>57296000 ext. 55765</td>
+                <td>http://www.est.ipn.mx/Paginas/Inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="23/">UPIBI</a></td>
+                <td>5729 6000 ext. 56347</td>
+                <td>http://www.upibi.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="24/">UPIIZ</a></td>
+                <td>01(492)9242419</td>
+                <td>http://www.zacatecas.ipn.mx/Paginas/Inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="25/">UPIICSA</a></td>
+                <td>56242000 ext. 70076</td>
+                <td>http://www.upiicsa.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="26/">UPIIG</a></td>
+                <td>57296000 ext. 81301</td>
+                <td>http://www.upiig.ipn.mx/Paginas/inicio.aspx</td>
+            </tr>
+        
+            <tr>
+                <td><a href="27/">UPIITA</a></td>
+                <td>57296000 ext. 56806</td>
+                <td>https://www.upiita.ipn.mx/</td>
+            </tr>
+        
+        </table>
+        <script type="text/javascript">
+            var map = L.map('map').setView([19.511179,-99.125700], 9);
+            var osmLayer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: 'Data, imagery and map information provided by <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.'
+            });
+            map.addLayer(osmLayer);
+            var data = {
+              "type": "FeatureCollection",
+              "features": [
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "CICS Milpa Alta",
+                    "id": "1"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-98.958369, 19.080164]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "CICS Santo Tomas",
+                    "id": "2"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.165461, 19.455405]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ENCB Santo Tomas",
+                    "id": "3"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.170836, 19.453918]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ENCB Zacatenco",
+                    "id": "4"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.146236, 19.499538]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ENMH",
+                    "id": "5"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.138622, 19.511700]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESCA Santo Tomas",
+                    "id": "6"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.167734, 19.453706]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESCA Tepepan",
+                    "id": "7"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.167936, 19.453461]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESCOM",
+                    "id": "8"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [ -99.147081, 19.504537]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESE",
+                    "id": "9"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.168029, 19.454780]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESFM",
+                    "id": "11"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.134623, 19.502749]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIME Azcapotzalco",
+                    "id": "12"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.173258, 19.490134]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIME Culhuacan",
+                    "id": "13"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.112834, 19.328666]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIQIE",
+                    "id": "16"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.134696, 19.502149]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIT",
+                    "id": "17"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.133092, 19.500310]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIA Tecamachalco",
+                    "id": "18"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.232475, 19.430167]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIA Ticoman",
+                    "id": "19"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.131278, 19.507826]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESIA Zacatenco",
+                    "id": "20"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.137211, 19.504721]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "ESM",
+                    "id": "21"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.168619, 19.451007]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "EST",
+                    "id": "22"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.140682, 19.514728]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "UPIBI",
+                    "id": "23"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.126838, 19.516090]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "UPIIZ",
+                    "id": "24"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-102.616502, 22.783992]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "UPIICSA",
+                    "id": "25"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.092630, 19.396414]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "UPIIG",
+                    "id": "26"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [ -101.504599, 21.014967]
+                  }
+                },
+                
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "nombre": "UPIITA",
+                    "id": "27"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [-99.125700, 19.511179]
+                  }
+                }
+                
+              ]
+            };
+            var dataLayer = L.geoJson(data, {
+                onEachFeature: function(feature, layer) {
+                    layer.bindPopup(
+                        '<a href="' + feature.properties.id + '/">' +
+                            feature.properties.nombre +
+                        '</a>'
+                    );
+                }
+            });
+            map.addLayer(dataLayer);
+        </script>
+    </body>
+</html>
