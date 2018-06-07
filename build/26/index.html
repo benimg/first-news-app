@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
     </head>
     <body>
         <div id="map" style="width:100%; height:300px;"></div>
@@ -10,9 +12,9 @@
             UPIIG
         </h1>
         <script type="text/javascript">
-            var map = L.map('map').setView([21.014967,  -101.504599], 16);
+            var map = L.map('map').setView([21.014967,  -101.504599], 13);
             var osmLayer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 12,
+                maxZoom: 20,
                 attribution: 'Data, imagery and map information provided by <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.'
             });
             map.addLayer(osmLayer);

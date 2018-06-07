@@ -1,13 +1,24 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
     </head>
     <body>
+        <nav>
+            <a href="https://www.upiita.ipn.mx/">
+                <img src="/static/upiita-logo.png">
+            </a>
+        </nav>
+        <header>
+            <h1>Aplicaciones Distribuidas Proyecto Final</h1>
+            <div class="byline">
+                <a>Nivel Superior IPN Ubicaciones</a>
+            </div>
+        </header>
         <div id="map" style="width:100%; height:300px;"></div>
-	<h1>Aplicaciones Distribuidas Proyecto Final</h1>
-        <h1>Nivel Superior IPN Ubicaciones</h1>
         <table border=1 cellpadding=7>
             <tr>
                 <th>nombre</th>
@@ -160,10 +171,16 @@
             </tr>
         
         </table>
+	<center>
+	<th>Profesor: Cesáreo Javier Muños Rodríguez <th>
+	</center>
+	<center>
+	<th>Estudiantes: Martínez Martínez Beatriz Adriana, Orihuela Soto Edgar, Morales Gallegos Benito <th>
+	</center>
         <script type="text/javascript">
-            var map = L.map('map').setView([19.511179,-99.125700], 9);
+            var map = L.map('map').setView([19.511179,-99.125700], 10);
             var osmLayer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 19,
+                maxZoom: 20,
                 attribution: 'Data, imagery and map information provided by <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.'
             });
             map.addLayer(osmLayer);
